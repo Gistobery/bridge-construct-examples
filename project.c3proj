@@ -1,27 +1,270 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 47603,
-	"name": "bridge-construct-examples",
+	"savedWithRelease": 47902,
+	"name": "playgama",
 	"runtime": "c3",
 	"useWorker": "dom",
 	"bundleAddons": false,
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Json",
+			"name": "JSON",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "NinePatch",
+			"name": "9-patch",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "PlaygamaBridge",
 			"name": "PlaygamaBridge",
 			"author": "Playgama",
 			"bundled": false,
-			"version": "1.29.0",
+			"version": "1.30.0",
 			"sdkVersion": 2
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Text input",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "hsladjust",
+			"name": "Adjust HSL",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
-	"uniqueId": "fuxacugnrim",
+	"uniqueId": "85e83it43n5",
 	"objectTypes": {
 		"items": [
-			"PlaygamaBridge"
+			"Mouse",
+			"PlaygamaBridge",
+			"mainLogo",
+			"Browser"
 		],
-		"subfolders": []
+		"subfolders": [
+			{
+				"items": [
+					"platformButtons",
+					"platformAudio",
+					"platformID",
+					"platformLanguage",
+					"platformPayload",
+					"platformTLD",
+					"serverTime",
+					"getServerTime",
+					"getAllGames",
+					"checkGamesSupport",
+					"allGamesInput",
+					"gameIdInput",
+					"getGameById",
+					"gameById",
+					"allGames",
+					"checkGamesbyIDSupport"
+				],
+				"subfolders": [],
+				"name": "platform"
+			},
+			{
+				"items": [
+					"remoteConfig",
+					"checkRemoteConfig",
+					"remoteConfigValue",
+					"getRemoteConfig",
+					"remoteConfigInput"
+				],
+				"subfolders": [],
+				"name": "remote"
+			},
+			{
+				"items": [
+					"showBanner",
+					"hideBanner",
+					"showInterstitial",
+					"hideInterstitial",
+					"hideRewarded",
+					"showRewarded",
+					"checkAdBlock",
+					"txtAdBlockStatus",
+					"checkBanner",
+					"checkInterstitial",
+					"checkRewarded",
+					"checkShare",
+					"delayInterstitial",
+					"lastBannerState",
+					"lastInterstitialState",
+					"lastRewardState",
+					"rewardPlacement"
+				],
+				"subfolders": [],
+				"name": "advertisement"
+			},
+			{
+				"items": [
+					"leaderboard",
+					"leaderboardLog",
+					"leaderboardID",
+					"leaderboardIDSet",
+					"leaderboardScore",
+					"leaderboardType",
+					"getEntries",
+					"setScore"
+				],
+				"subfolders": [],
+				"name": "leaderboards"
+			},
+			{
+				"items": [
+					"avatar",
+					"authorize",
+					"authSupported",
+					"checkAuthorized",
+					"playerID",
+					"playerName"
+				],
+				"subfolders": [],
+				"name": "player"
+			},
+			{
+				"items": [
+					"defaultStorage",
+					"isPIavailable",
+					"isLSAvailable",
+					"isPISupport",
+					"checkLSSupport",
+					"deleteData",
+					"loadData",
+					"saveData",
+					"PIcheckbox",
+					"levelID",
+					"LScheckbox",
+					"coinsCount"
+				],
+				"subfolders": [],
+				"name": "storage"
+			},
+			{
+				"items": [
+					"deviceType"
+				],
+				"subfolders": [],
+				"name": "device"
+			},
+			{
+				"items": [
+					"visibilityCurrent",
+					"visibilityLast"
+				],
+				"subfolders": [],
+				"name": "game"
+			},
+			{
+				"items": [
+					"back",
+					"colorBlack",
+					"colorDarkGray",
+					"navMain",
+					"textStatic"
+				],
+				"subfolders": [],
+				"name": "main"
+			},
+			{
+				"items": [
+					"addFavorites",
+					"addHomeScreen",
+					"checkAddFav",
+					"checkAddHS",
+					"checkCreatePost",
+					"checkExternalLinks",
+					"checkInviteFriends",
+					"checkJoinCommunity",
+					"checkRate",
+					"createPost",
+					"inviteFriends",
+					"joinCommunity",
+					"rate",
+					"share"
+				],
+				"subfolders": [],
+				"name": "social"
+			},
+			{
+				"items": [
+					"achieveKey",
+					"achieveName",
+					"achieveUnlock",
+					"checkAchieve",
+					"checkGetList",
+					"checkNativePopup",
+					"getAchieve",
+					"showNativePopup"
+				],
+				"subfolders": [],
+				"name": "achievements"
+			},
+			{
+				"items": [
+					"checkPayments",
+					"consume",
+					"getCatalog",
+					"getPurchases",
+					"productIDconsume",
+					"productIDpurchase",
+					"purchase",
+					"paymentsInput",
+					"payments",
+					"purchases"
+				],
+				"subfolders": [],
+				"name": "payments"
+			}
+		]
 	},
 	"functionsName": "Functions",
 	"autosaveData": null,
@@ -32,13 +275,14 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Playgama"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"main",
+			"navigation"
 		],
 		"subfolders": []
 	},
@@ -60,7 +304,16 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "GeistMono-Regular.ttf",
+					"type": "application/font-sfnt",
+					"sid": 920864363934268,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {
@@ -68,7 +321,7 @@
 				{
 					"name": "icon-16.png",
 					"type": "image/png",
-					"sid": 390281450584877,
+					"sid": 816158918918135,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -76,7 +329,7 @@
 				{
 					"name": "icon-32.png",
 					"type": "image/png",
-					"sid": 711105450044392,
+					"sid": 288503851174650,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -84,7 +337,7 @@
 				{
 					"name": "icon-64.png",
 					"type": "image/png",
-					"sid": 717962925198681,
+					"sid": 969930549947967,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -92,7 +345,7 @@
 				{
 					"name": "icon-128.png",
 					"type": "image/png",
-					"sid": 312105865454803,
+					"sid": 214871892686625,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -100,7 +353,7 @@
 				{
 					"name": "icon-256.png",
 					"type": "image/png",
-					"sid": 425949850171004,
+					"sid": 323789364811361,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -108,7 +361,7 @@
 				{
 					"name": "icon-512.png",
 					"type": "image/png",
-					"sid": 657212638787115,
+					"sid": 560019563938003,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -116,7 +369,7 @@
 				{
 					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 642021175800050,
+					"sid": 316099687162963,
 					"icon-info": {
 						"purpose": "loading-logo"
 					}
@@ -125,7 +378,24 @@
 			"subfolders": []
 		},
 		"general": {
-			"items": [],
+			"items": [
+				{
+					"name": "playgama-bridge-config.json",
+					"type": "application/json",
+					"sid": 333142814930488,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "playgama.css",
+					"type": "text/css",
+					"sid": 298165695652530,
+					"file-info": {
+						"purpose": "stylesheet"
+					}
+				}
+			],
 			"subfolders": []
 		}
 	},
@@ -151,10 +421,10 @@
 		"subfolders": []
 	},
 	"properties": {
-		"description": "",
+		"description": "Example project",
 		"version": "1.0.0.0",
 		"autoIncrementVersion": false,
-		"author": "",
+		"author": "t.me/dk_proger",
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
@@ -205,7 +475,7 @@
 		"exportFileStructure": "folders",
 		"scriptsType": "module"
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 1920,
+	"viewportHeight": 1080,
 	"firstLayout": null
 }

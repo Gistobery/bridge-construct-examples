@@ -1,0 +1,9 @@
+{
+	"name": "hideBanner",
+	"plugin-id": "Button",
+	"sid": 456893200710138,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

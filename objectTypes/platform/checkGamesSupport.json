@@ -1,0 +1,10 @@
+{
+	"name": "checkGamesSupport",
+	"plugin-id": "Text",
+	"sid": 910122092288110,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

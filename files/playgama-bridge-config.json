@@ -1,0 +1,23 @@
+{
+    "$schema": "https://bridge.playgama.com/v1/stable/schema.json",
+    "advertisement": {
+        "interstitial": {
+            "preloadOnStart": true
+        },
+        "rewarded": {
+            "preloadOnStart": true
+        },
+        "useBuiltInErrorPopup": true,
+        "backfillId": ""
+    },
+    "payments": [
+        {
+      "id": "1",
+      "yandex": {
+        "id": "1"
+      }
+    }
+    ],
+    "leaderboards": [],
+    "sendAnalyticsEvents": true
+}

@@ -1,0 +1,9 @@
+{
+	"name": "consume",
+	"plugin-id": "Button",
+	"sid": 111928769042224,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

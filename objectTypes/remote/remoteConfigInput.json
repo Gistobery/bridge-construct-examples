@@ -1,0 +1,9 @@
+{
+	"name": "remoteConfigInput",
+	"plugin-id": "TextBox",
+	"sid": 650263286572187,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

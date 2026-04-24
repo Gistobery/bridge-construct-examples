@@ -1,0 +1,10 @@
+{
+	"name": "checkExternalLinks",
+	"plugin-id": "Text",
+	"sid": 155600013604831,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

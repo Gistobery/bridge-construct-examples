@@ -1,0 +1,8 @@
+{
+	"name": "remoteConfig",
+	"plugin-id": "Json",
+	"sid": 826841529726109,
+	"isGlobal": true,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": []
+}

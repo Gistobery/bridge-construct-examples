@@ -1,0 +1,9 @@
+{
+	"name": "achieveUnlock",
+	"plugin-id": "Button",
+	"sid": 227771271429976,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

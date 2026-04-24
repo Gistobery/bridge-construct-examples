@@ -1,12 +1,12 @@
 {
 	"name": "PlaygamaBridge",
 	"plugin-id": "PlaygamaBridge",
-	"sid": 717222998732374,
+	"sid": 557807724322908,
 	"singleglobal-inst": {
 		"type": "PlaygamaBridge",
 		"properties": {},
-		"uid": 2,
-		"sid": 656445240701185,
+		"uid": 17,
+		"sid": 173315669317021,
 		"tags": ""
 	}
 }

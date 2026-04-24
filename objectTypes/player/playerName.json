@@ -1,0 +1,10 @@
+{
+	"name": "playerName",
+	"plugin-id": "Text",
+	"sid": 122680025658983,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,0 +1,9 @@
+{
+	"name": "getPurchases",
+	"plugin-id": "Button",
+	"sid": 559795095120986,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

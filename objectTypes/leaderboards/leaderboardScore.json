@@ -1,0 +1,9 @@
+{
+	"name": "leaderboardScore",
+	"plugin-id": "TextBox",
+	"sid": 677147378929216,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

@@ -1,0 +1,9 @@
+{
+	"name": "productIDpurchase",
+	"plugin-id": "TextBox",
+	"sid": 478489241389849,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

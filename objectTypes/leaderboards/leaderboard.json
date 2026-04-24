@@ -1,0 +1,8 @@
+{
+	"name": "leaderboard",
+	"plugin-id": "Json",
+	"sid": 648202311003036,
+	"isGlobal": true,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": []
+}

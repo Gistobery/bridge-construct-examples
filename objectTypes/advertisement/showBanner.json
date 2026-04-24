@@ -1,0 +1,9 @@
+{
+	"name": "showBanner",
+	"plugin-id": "Button",
+	"sid": 105482021758560,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

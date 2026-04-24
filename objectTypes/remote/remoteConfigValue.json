@@ -1,0 +1,10 @@
+{
+	"name": "remoteConfigValue",
+	"plugin-id": "Text",
+	"sid": 461864882774066,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,0 +1,10 @@
+{
+	"name": "txtAdBlockStatus",
+	"plugin-id": "Text",
+	"sid": 115545860942137,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

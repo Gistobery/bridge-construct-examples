@@ -1,0 +1,9 @@
+{
+	"name": "gameIdInput",
+	"plugin-id": "TextBox",
+	"sid": 890073656140377,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

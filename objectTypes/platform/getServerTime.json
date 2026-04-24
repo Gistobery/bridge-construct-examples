@@ -1,0 +1,9 @@
+{
+	"name": "getServerTime",
+	"plugin-id": "Button",
+	"sid": 642796030962827,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

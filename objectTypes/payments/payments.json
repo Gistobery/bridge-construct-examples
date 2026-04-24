@@ -1,0 +1,8 @@
+{
+	"name": "payments",
+	"plugin-id": "Json",
+	"sid": 857658978889140,
+	"isGlobal": true,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": []
+}

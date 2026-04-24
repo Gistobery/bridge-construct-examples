@@ -1,0 +1,9 @@
+{
+	"name": "paymentsInput",
+	"plugin-id": "TextBox",
+	"sid": 845978291712389,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

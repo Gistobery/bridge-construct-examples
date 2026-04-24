@@ -1,0 +1,9 @@
+{
+	"name": "checkAdBlock",
+	"plugin-id": "Button",
+	"sid": 750075389091766,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

@@ -1,0 +1,10 @@
+{
+	"name": "checkAuthorized",
+	"plugin-id": "Text",
+	"sid": 573488716387557,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

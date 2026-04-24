@@ -1,0 +1,9 @@
+{
+	"name": "leaderboardIDSet",
+	"plugin-id": "TextBox",
+	"sid": 615510261440928,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

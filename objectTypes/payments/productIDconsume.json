@@ -1,0 +1,9 @@
+{
+	"name": "productIDconsume",
+	"plugin-id": "TextBox",
+	"sid": 113912280800483,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

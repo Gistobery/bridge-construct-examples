@@ -1,0 +1,10 @@
+{
+	"name": "checkJoinCommunity",
+	"plugin-id": "Text",
+	"sid": 219127078970736,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

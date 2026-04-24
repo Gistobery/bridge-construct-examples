@@ -1,0 +1,52 @@
+@font-face { font-family: 'GeistMono'; src: url('fonts/GeistMono-Regular.ttf') format('truetype'); }
+
+.playgama-input {
+    background: #1D1D21; border-radius: 8px; border: none; outline: none;
+    padding: 16px 12px; width: 100%; box-sizing: border-box;
+    font-family: 'GeistMono', monospace; 
+    font-size: clamp(2px, min(1.2vw, 1.8vh), 24px);
+    color: #fff; resize: none;
+}
+.playgama-input::selection { background: rgb(216, 187, 255); color: #000; }
+.playgama-input::-webkit-scrollbar { width: 8px; }
+.playgama-input::-webkit-scrollbar-thumb { background: rgb(216, 187, 255); border-radius: 4px; }
+
+.playgama-button, .playgama-button-dark {
+    display: flex; align-items: center; justify-content: center;
+    min-width: 56px; height: 32px; padding: 0 12px;
+    border: none; outline: none; cursor: pointer; border-radius: 999px;
+    font-family: 'GeistMono', monospace; 
+    font-size: clamp(2px, min(1.2vw, 1.8vh), 24px);
+    backface-visibility: hidden;
+}
+.playgama-button { background: rgba(151, 71, 255, 1); color: #fff; }
+.playgama-button:hover:not(:disabled) { filter: brightness(1.1); }
+.playgama-button:active:not(:disabled) { transform: scale(0.95); }
+.playgama-button-dark { background: rgba(73, 73, 76, 1); color: #ccc; }
+.playgama-button-dark:hover:not(:disabled) { background: rgba(55, 55, 60, 1); color: #fff; }
+.playgama-button-dark:active:not(:disabled) { transform: scale(0.95); }
+.playgama-button:disabled, .playgama-button-dark:disabled {
+    opacity: 0.5; cursor: not-allowed; pointer-events: none; transform: none !important; filter: none !important;
+}
+
+.playgama-radio {
+    -webkit-appearance: none; appearance: none;
+    width: 32px; height: 32px; min-width: 32px; vertical-align: middle; margin-right: 1px;
+    background: transparent; border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%; cursor: pointer; position: relative; outline: none; transition: 0.2s;
+}
+.playgama-radio:hover:not(:disabled) { border-color: rgba(255, 255, 255, 0.8); }
+.playgama-radio:checked:not(:disabled) { background: #9747FF; border-color: #9747FF; }
+.playgama-radio:checked::after {
+    content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 16px; height: 16px; background: #fff; border-radius: 50%;
+}
+.playgama-radio:disabled { opacity: 0.5; cursor: not-allowed; border-color: rgba(255, 255, 255, 0.2) !important; }
+.playgama-radio:disabled:checked { background: rgba(151, 71, 255, 0.5); border-color: rgba(151, 71, 255, 0.5) !important; }
+
+label:has(.playgama-radio) {
+    color: #fff !important; font-family: 'GeistMono', monospace !important;
+    display: flex; align-items: center; gap: 12px; user-select: none;
+    font-size: clamp(2px, min(1.2vw, 1.8vh), 24px);
+}
+label:has(.playgama-radio:disabled) { opacity: 0.5; cursor: not-allowed; }

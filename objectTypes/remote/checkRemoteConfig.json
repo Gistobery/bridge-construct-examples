@@ -1,0 +1,10 @@
+{
+	"name": "checkRemoteConfig",
+	"plugin-id": "Text",
+	"sid": 939569642053365,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

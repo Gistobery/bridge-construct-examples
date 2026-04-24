@@ -1,0 +1,9 @@
+{
+	"name": "getRemoteConfig",
+	"plugin-id": "Button",
+	"sid": 230722416420791,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}
